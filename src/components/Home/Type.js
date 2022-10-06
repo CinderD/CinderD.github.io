@@ -1,15 +1,15 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-
+// components to make type writing effect
 function Type() {
   return (
     <Typewriter
       options={{
         strings: [
-          "Developer",
-          "Deep Learning Engineer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
+          "Visualization",
+          "Human-AI Collaboration",
+          "ML & DL",
+          "Statistic",
         ],
         autoStart: true,
         loop: true,

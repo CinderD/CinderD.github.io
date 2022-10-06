@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
+// backgrounf shining stars
 
 function Particle() {
   return (
