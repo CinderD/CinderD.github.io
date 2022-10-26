@@ -1,8 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+// import {AiOutlineFilePdf} from "react-icons/ai";
+// import { BsGithub } from "react-icons/bs";
+// import { MdOndemandVideo } from "react-icons/md";
+import PublicationCard from "./PublicationCards";
+import NewsCard from "./NewsCards";
 // import myImg from "../../Assets/avatar.svg";
 // import Tilt from "react-parallax-tilt";
-import UnbiasedDesignPic from "../../Assets/UnbiasedDesign.png";
+// import UnbiasedDesignPic from "../../Assets/UnbiasedDesign.png";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -19,17 +24,14 @@ function Home2() {
             <h1 style={{ fontSize: "1.6em" }}>
             <span className="black"> News </span>
             </h1>
-            <p className="home-about-body">
-              Sep 1, 2022 Started my PhD journey.
-              <br />
-              Aug 4, One co-author paper accepted by CSCW 2022 (CCF-A).
-            </p>
+            <NewsCard/>
             <h1 style={{ fontSize: "1.6em" }}>
             <span className="black"> Publications </span>
             </h1>
-            <Row>
-              <Col md={3} className="publication-block">
 
+            <PublicationCard/>
+            {/* <Row>
+              <Col md={3} className="publication-block">
                 <img
                   src={UnbiasedDesignPic}
                   alt="profile Pic"
@@ -39,18 +41,20 @@ function Home2() {
               </Col>
               <Col md = {6}>
                 <p className="publication-title">
+                  <a className="publication-link" href="https://arxiv.org/abs/2209.08751" target="_blank" rel="noreferrer">
                   Bias-Aware Design for Informed Decisions: Raising
                   Awareness of Self-Selection Bias in User Ratings and Reviews
+                  </a>
                 </p>
-                <p className="publication-title">
+                <p className="publication-authors">
                 
                 Qian Zhu, Leo Yu-Ho Lo, Meng Xia, <strong style={{textDecoration: 'underline'}}>ZiXin Chen</strong>, Xiaojuan Ma
                 </p>
-                <p className="publication-title">
+                <p className="publication-authors">
                 CSCW 2022
                 </p>
               </Col>
-            </Row>
+            </Row> */}
           </Col>
           
           {/* <Col md={4} className="myAvtar">
@@ -68,7 +72,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/CinderD"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/CinderdZixin"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +92,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/zixin-steven-chen-669253204/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -98,7 +102,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/cinderdzixin/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
