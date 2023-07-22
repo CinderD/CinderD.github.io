@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.348fac4b.css",
-    "main.js": "/static/js/main.439b7b88.js",
+    "main.js": "/static/js/main.578212a9.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
     "static/media/FullKGCircle.png": "/static/media/FullKGCircle.3b154275b87cfa31a16d.png",
+    "static/media/GrieferLens.png": "/static/media/GrieferLens.1ce2ede7a8c051479139.png",
     "static/media/VisComplex.png": "/static/media/VisComplex.d3b4cca47a8a8b158d9e.png",
+    "static/media/VideoPro.png": "/static/media/VideoPro.980d38ed1c6722f50ad2.png",
     "static/media/UnbiasedDesign.png": "/static/media/UnbiasedDesign.e540da844e1a51df47ab.png",
     "static/media/czx_pic.JPG": "/static/media/czx_pic.86b29849835ab34b424f.JPG",
     "static/media/Zixin_CHEN_CV.pdf": "/static/media/Zixin_CHEN_CV.04f7c8f3ac0f6cad7778.pdf",
@@ -15,12 +17,12 @@
     "static/media/loading02.gif": "/static/media/loading02.d31616c331631e03ca9f.gif",
     "index.html": "/index.html",
     "main.348fac4b.css.map": "/static/css/main.348fac4b.css.map",
-    "main.439b7b88.js.map": "/static/js/main.439b7b88.js.map",
+    "main.578212a9.js.map": "/static/js/main.578212a9.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.348fac4b.css",
-    "static/js/main.439b7b88.js"
+    "static/js/main.578212a9.js"
   ]
 }
