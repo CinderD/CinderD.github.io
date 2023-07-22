@@ -9,7 +9,7 @@ function Type() {
           "Visualization",
           "Human-AI Collaboration",
           "ML & DL",
-          "Statistic",
+          "Statistics",
         ],
         autoStart: true,
         loop: true,
