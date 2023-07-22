@@ -21,7 +21,7 @@ function Home() {
               <h1 style={{ paddingBottom: 0, color: '#4f4f4f' }} className="heading">
               Hi There!
               </h1>
-              <p className="short-bio"  style={{color: '#4f4f4f'}}>I am <strong>Zixin Steven CHEN</strong>, a second-year PhD student at {}
+              <p className="short-bio"  style={{color: '#4f4f4f'}}>I am <strong>Zixin (Steven) CHEN</strong>, a second-year PhD student at {}
                 <a className="link" href="http://vis.cse.ust.hk/" target="_blank" rel="noreferrer"><strong>HKUST VisLab</strong></a>, supervised by {}
                 <a className="link" href="http://huamin.org/" target="_blank" rel="noreferrer"><strong>Prof. Huamin Qu</strong></a>. My research interests include {}
                 <strong>Data Visualization</strong> and <strong>Human-Computer Interaction</strong> . Recently, I am concentrating on <strong>Human-AI Collaboration for Personalization</strong>.
