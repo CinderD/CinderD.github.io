@@ -30,6 +30,7 @@ function Home2() {
             </h1>
 
             <PublicationCard/>
+
             {/* <Row>
               <Col md={3} className="publication-block">
                 <img

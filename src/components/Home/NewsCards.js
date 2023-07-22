@@ -11,9 +11,15 @@ import React from "react";
 function NewsCards(props) {
   return (
     <p className="home-about-body">
-    Sep 1, 2022 Started my PhD journey.
+    July 22, 2023: One first-author poster paper accepted by IEEE VIS 2023.
     <br />
-    Aug 4, One co-author paper accepted by CSCW 2022.
+    July 16, 2023: One co-author paper accepted by IEEE VIS 2023.
+    <br />
+    Sep 1, 2022: Started my PhD journey.
+    <br />
+    Aug 4, 2022: One co-author paper accepted by CSCW 2022.
+    
+
   </p>
 
     // <Card className="project-card-view">
