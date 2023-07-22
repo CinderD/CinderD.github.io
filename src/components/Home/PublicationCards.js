@@ -31,7 +31,7 @@ function PublicationCards(props) {
 
           <p className="publication-authors">
 
-            <strong style={{ textDecoration: 'underline' }}>ZiXin Chen</strong>, Shiyi Liu, Zhihua Jin, Gaoping Huang, Yang Chao, Zhenchuan Yang, Quan Li, and Huamin Qu
+            <strong style={{ textDecoration: 'underline' }}>Zixin Chen</strong>, Shiyi Liu, Zhihua Jin, Gaoping Huang, Yang Chao, Zhenchuan Yang, Quan Li, and Huamin Qu
           </p>
           <p className="publication-conference">
             IEEE VIS 2023 (Poster)
@@ -67,7 +67,7 @@ function PublicationCards(props) {
           </a>
 
           <p className="publication-authors">
-            Jianben He, Xingbo Wang, Kam Kwai Wong, Xijie Huang, Changjian Chen, <strong style={{ textDecoration: 'underline' }}>ZiXin Chen</strong>, Fengjie Wang, Min Zhu, and Huamin Qu
+            Jianben He, Xingbo Wang, Kam Kwai Wong, Xijie Huang, Changjian Chen, <strong style={{ textDecoration: 'underline' }}>Zixin Chen</strong>, Fengjie Wang, Min Zhu, and Huamin Qu
           </p>
           <p className="publication-conference">
             IEEE VIS 2023
@@ -104,7 +104,7 @@ function PublicationCards(props) {
 
           <p className="publication-authors">
 
-            Qian Zhu, Leo Yu-Ho Lo, Meng Xia, <strong style={{ textDecoration: 'underline' }}>ZiXin Chen</strong>, and Xiaojuan Ma
+            Qian Zhu, Leo Yu-Ho Lo, Meng Xia, <strong style={{ textDecoration: 'underline' }}>Zixin Chen</strong>, and Xiaojuan Ma
           </p>
           <p className="publication-conference">
             ACM CSCW 2022
