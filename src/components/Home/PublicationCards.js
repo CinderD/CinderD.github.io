@@ -34,7 +34,7 @@ function PublicationCards(props) {
             <strong style={{ textDecoration: 'underline' }}>ZiXin Chen</strong>, Shiyi Liu, Zhihua Jin, Gaoping Huang, Yang Chao, Zhenchuan Yang, Quan Li, and Huamin Qu
           </p>
           <p className="publication-conference">
-            IEEE VIS 2023(Poster)
+            IEEE VIS 2023 (Poster)
           </p>
           <FaRegFilePdf className="pub-icon" /> &nbsp;
           {<a className="pub-link" href="https://cinderd.github.io/" style={{ textDecoration: "none" }} target="_blank" rel="noreferrer">PDF</a>}
