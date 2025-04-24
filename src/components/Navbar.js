@@ -14,6 +14,9 @@ import {
   // AiOutlineUser,
 } from "react-icons/ai";
 
+// import { FaApple } from "react-icons/fa6";
+import { FaGraduationCap } from "react-icons/fa6";
+
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -71,6 +74,38 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                href="https://scholar.google.com/citations?user=99HlmSkAAAAJ&hl=zh-CN&inst=1381320739207392350"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {/* <CgFileDocument style={{ marginBottom: "2px" }} /> G. Scholar */}
+                <FaGraduationCap style={{ fontSize: "1.1em" }} /> G. Scholar
+              </Nav.Link>
+            </Nav.Item>
+
+
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item> */}
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://www.linkedin.com/in/zixin-steven-chen-669253204/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> LinkedIn
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item>
+              <Nav.Link
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
@@ -80,7 +115,7 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
@@ -88,28 +123,35 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Resume
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
-                href="https://www.linkedin.com/in/zixin-steven-chen-669253204/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/CinderD"
-                target="_blank"
-                className="fork-btn-inner"v
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+                style={{ height: "75%" }}
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                {/* <FaGraduationCap style={{ fontSize: "1.1em" }} /> */}
               </Button>
             </Nav.Item>
           </Nav>

@@ -1,0 +1,58 @@
+.news-cards {
+    padding: 20px;
+    /* max-width: 600px;  */
+    margin: 0 left; /* 居中对齐 */
+  }
+  
+  .news-item {
+    margin-bottom: 10px; /* 每条新闻的间距 */
+    line-height: 1.6;
+    display: flex; 
+    align-items: flex-start; /* 确保图标、日期和内容垂直居中 */
+  }
+  
+  /* .news-date {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+  } */
+
+  .news-date {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+    display: flex;
+    align-items: flex-start; /* 让图标和文字垂直居中对齐 */
+    display: flex; 
+    flex-shrink: 0;
+  }
+  
+  .news-icon {
+    max-height: 1em; /* 确保图标高度不会超过字体高度 */
+    width: auto; /* 自动调整宽度，保持宽高比 */
+    margin: 5px; /* 图标和文字之间的间距 */
+    
+  }
+  
+  
+  .news-content {
+    color: #555; /* 新闻内容的颜色 */
+    flex-grow: 1; /* 确保内容部分占据剩余空间 */
+  }
+  
+  .news-content strong {
+    color: #000; /* 加粗部分的颜色 */
+  }
+  
+  .news-content a {
+    color: #000; /* 链接文字颜色与加粗部分保持一致 */
+    text-decoration: none; /* 去除默认下划线 */
+    border-bottom: 1px solid #000; /* 添加与文字颜色相同的自定义下划线 */
+    /* padding-bottom: 2px;  */
+  }
+  
+  .news-content a:hover {
+    text-decoration: none; /* 保持无下划线 */
+    border-bottom: 1px solid #000; /* 悬停时下划线颜色保持一致 */
+  }
+  

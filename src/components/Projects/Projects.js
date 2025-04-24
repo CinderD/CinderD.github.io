@@ -19,7 +19,7 @@ function Projects() {
           Project  Gallery
         </h1>
         <p style={{ color: "#181a27" }}>
-          Here is the collection of my recent projects.
+          Here is the collection of projects during my undergraduate study.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">

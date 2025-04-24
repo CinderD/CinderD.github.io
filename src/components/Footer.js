@@ -7,6 +7,8 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import { FaGraduationCap } from "react-icons/fa6";
+
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
@@ -23,22 +25,22 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
+                href="https://scholar.google.com/citations?user=99HlmSkAAAAJ&hl=zh-CN&inst=1381320739207392350"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaGraduationCap />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
                 href="https://github.com/CinderD"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/CinderdZixin"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
               </a>
             </li>
             <li className="social-icons">
@@ -53,14 +55,15 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/cinderdzixin/"
+                href="https://twitter.com/CinderdZixin"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <AiOutlineTwitter />
               </a>
             </li>
+
           </ul>
         </Col>
       </Row>

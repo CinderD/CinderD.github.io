@@ -1,0 +1,33 @@
+.teaching-card {
+    padding: 10px;
+    
+  }
+  
+  .teaching-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    color: #495057;
+  }
+  
+  .teaching-semester {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .teaching-course {
+    flex: 3;
+  }
+  
+  .teaching-school {
+    flex: 1;
+  }
+  
+  .teaching-role {
+    flex: 2;
+  }
+  
+  .teaching-row div {
+    padding-right: 10px;
+  }
+  

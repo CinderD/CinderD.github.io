@@ -1,0 +1,35 @@
+
+  
+.year-block {
+  text-align: left;
+}
+
+.year-large {
+  font-size: 36px; /* 设置年份的字体大小 */
+  color: #cccccc;   /* 设置年份的颜色 */
+  line-height: 1;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.publication-card {
+  padding: 10px;
+}
+
+.spacer {
+  height: 20px;
+}
+
+/* 当屏幕宽度小于 768px 时，将年份放置在上方，并调整样式 */
+@media (max-width: 768px) {
+  .year-block {
+    text-align: left;
+    margin-bottom: 10px; /* 为年份和卡片之间添加一些间距 */
+  }
+
+  .year-large {
+    font-size: 24px; /* 屏幕较小时，缩小年份字体 */
+    color: #999999;
+    text-align: left;
+  }
+}
