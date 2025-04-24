@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ad6f4a5.css",
-    "main.js": "/static/js/main.e6977554.js",
+    "main.js": "/static/js/main.e4eeee5f.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -15,19 +15,19 @@
     "static/media/czx_pic_new.jpg": "/static/media/czx_pic_new.bba242dadf8e35689fd5.jpg",
     "static/media/DIS24WIP.png": "/static/media/DIS24WIP.b70d5883483a76563be1.png",
     "static/media/teaser_emnlp.png": "/static/media/teaser_emnlp.8b199f2b7313377aad13.png",
-    "static/media/Zixin_CHEN_CV.pdf": "/static/media/Zixin_CHEN_CV.04f7c8f3ac0f6cad7778.pdf",
     "static/media/news-icon.png": "/static/media/news-icon.84fc591329752cc91b51.png",
+    "static/media/Zixin_CV_2025.pdf": "/static/media/Zixin_CV_2025.2fcbfe48c1cd7144a6d5.pdf",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/PsyLogo.png": "/static/media/PsyLogo.0a9acb6d012764d331aa.png",
     "static/media/loading02.gif": "/static/media/loading02.d31616c331631e03ca9f.gif",
     "index.html": "/index.html",
     "main.3ad6f4a5.css.map": "/static/css/main.3ad6f4a5.css.map",
-    "main.e6977554.js.map": "/static/js/main.e6977554.js.map",
+    "main.e4eeee5f.js.map": "/static/js/main.e4eeee5f.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ad6f4a5.css",
-    "static/js/main.e6977554.js"
+    "static/js/main.e4eeee5f.js"
   ]
 }
