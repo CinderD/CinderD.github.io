@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23453b18.css",
-    "main.js": "/static/js/main.37aa2288.js",
+    "main.css": "/static/css/main.a5ee5bdf.css",
+    "main.js": "/static/js/main.1dc5f212.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -10,6 +10,8 @@
     "static/media/GrieferLens.png": "/static/media/GrieferLens.1ce2ede7a8c051479139.png",
     "static/media/StuGPTVIZ.png": "/static/media/StuGPTVIZ.d126ef3aeee0bea5059c.png",
     "static/media/VisComplex.png": "/static/media/VisComplex.d3b4cca47a8a8b158d9e.png",
+    "static/media/CellScout.png": "/static/media/CellScout.a4ad029879f1959a796b.png",
+    "static/media/VizDefender.png": "/static/media/VizDefender.ab33198d8324f00e059f.png",
     "static/media/VideoPro.png": "/static/media/VideoPro.980d38ed1c6722f50ad2.png",
     "static/media/UnbiasedDesign.png": "/static/media/UnbiasedDesign.e540da844e1a51df47ab.png",
     "static/media/DIS24.png": "/static/media/DIS24.20d8a6a443221755ee28.png",
@@ -24,13 +26,13 @@
     "static/media/PsyLogo.png": "/static/media/PsyLogo.0a9acb6d012764d331aa.png",
     "static/media/loading02.gif": "/static/media/loading02.d31616c331631e03ca9f.gif",
     "index.html": "/index.html",
-    "main.23453b18.css.map": "/static/css/main.23453b18.css.map",
-    "main.37aa2288.js.map": "/static/js/main.37aa2288.js.map",
+    "main.a5ee5bdf.css.map": "/static/css/main.a5ee5bdf.css.map",
+    "main.1dc5f212.js.map": "/static/js/main.1dc5f212.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23453b18.css",
-    "static/js/main.37aa2288.js"
+    "static/css/main.a5ee5bdf.css",
+    "static/js/main.1dc5f212.js"
   ]
 }
