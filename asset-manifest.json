@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b9aa2330.css",
-    "main.js": "/static/js/main.30b5a98b.js",
+    "main.js": "/static/js/main.28e76063.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -17,6 +17,7 @@
     "static/media/UnbiasedDesign.png": "/static/media/UnbiasedDesign.e540da844e1a51df47ab.png",
     "static/media/InteractiveScaffolding.png": "/static/media/InteractiveScaffolding.1dd223d6d65cff1870e4.png",
     "static/media/DIS24.png": "/static/media/DIS24.20d8a6a443221755ee28.png",
+    "static/media/VizQStudio.png": "/static/media/VizQStudio.94d753827b9cd281a526.png",
     "static/media/MisleadingChartQA.png": "/static/media/MisleadingChartQA.7f6b0be235dfd57ccccd.png",
     "static/media/TheoryOfMind.png": "/static/media/TheoryOfMind.fbc3d6839f9263bb48ca.png",
     "static/media/czx_pic_new.jpg": "/static/media/czx_pic_new.bba242dadf8e35689fd5.jpg",
@@ -31,12 +32,12 @@
     "static/media/loading02.gif": "/static/media/loading02.d31616c331631e03ca9f.gif",
     "index.html": "/index.html",
     "main.b9aa2330.css.map": "/static/css/main.b9aa2330.css.map",
-    "main.30b5a98b.js.map": "/static/js/main.30b5a98b.js.map",
+    "main.28e76063.js.map": "/static/js/main.28e76063.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9aa2330.css",
-    "static/js/main.30b5a98b.js"
+    "static/js/main.28e76063.js"
   ]
 }
