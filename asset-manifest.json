@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfaf515b.css",
-    "main.js": "/static/js/main.8f72dcfa.js",
+    "main.css": "/static/css/main.8256d92d.css",
+    "main.js": "/static/js/main.dcbe2a59.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -31,15 +31,14 @@
     "static/media/Zixin_CV_2025.pdf": "/static/media/Zixin_CV_2025.2fcbfe48c1cd7144a6d5.pdf",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/PsyLogo.png": "/static/media/PsyLogo.0a9acb6d012764d331aa.png",
-    "static/media/loading02.gif": "/static/media/loading02.d31616c331631e03ca9f.gif",
     "index.html": "/index.html",
-    "main.cfaf515b.css.map": "/static/css/main.cfaf515b.css.map",
-    "main.8f72dcfa.js.map": "/static/js/main.8f72dcfa.js.map",
+    "main.8256d92d.css.map": "/static/css/main.8256d92d.css.map",
+    "main.dcbe2a59.js.map": "/static/js/main.dcbe2a59.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfaf515b.css",
-    "static/js/main.8f72dcfa.js"
+    "static/css/main.8256d92d.css",
+    "static/js/main.dcbe2a59.js"
   ]
 }
