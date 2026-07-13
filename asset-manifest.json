@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8256d92d.css",
-    "main.js": "/static/js/main.dcbe2a59.js",
+    "main.js": "/static/js/main.c149b9db.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -13,6 +13,7 @@
     "static/media/VisComplex.png": "/static/media/VisComplex.d3b4cca47a8a8b158d9e.png",
     "static/media/CellScout.png": "/static/media/CellScout.a4ad029879f1959a796b.png",
     "static/media/VizDefender.png": "/static/media/VizDefender.ab33198d8324f00e059f.png",
+    "static/media/WildTrace.png": "/static/media/WildTrace.5805ac4ac68490c09d8c.png",
     "static/media/VideoPro.png": "/static/media/VideoPro.980d38ed1c6722f50ad2.png",
     "static/media/UnbiasedDesign.png": "/static/media/UnbiasedDesign.e540da844e1a51df47ab.png",
     "static/media/InteractiveScaffolding.png": "/static/media/InteractiveScaffolding.1dd223d6d65cff1870e4.png",
@@ -33,12 +34,12 @@
     "static/media/PsyLogo.png": "/static/media/PsyLogo.0a9acb6d012764d331aa.png",
     "index.html": "/index.html",
     "main.8256d92d.css.map": "/static/css/main.8256d92d.css.map",
-    "main.dcbe2a59.js.map": "/static/js/main.dcbe2a59.js.map",
+    "main.c149b9db.js.map": "/static/js/main.c149b9db.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8256d92d.css",
-    "static/js/main.dcbe2a59.js"
+    "static/js/main.c149b9db.js"
   ]
 }
