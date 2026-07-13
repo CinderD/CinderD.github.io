@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8256d92d.css",
-    "main.js": "/static/js/main.c149b9db.js",
+    "main.js": "/static/js/main.cc9622ab.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -16,13 +16,13 @@
     "static/media/WildTrace.png": "/static/media/WildTrace.5805ac4ac68490c09d8c.png",
     "static/media/VideoPro.png": "/static/media/VideoPro.980d38ed1c6722f50ad2.png",
     "static/media/UnbiasedDesign.png": "/static/media/UnbiasedDesign.e540da844e1a51df47ab.png",
+    "static/media/zixin_profile_26.png": "/static/media/zixin_profile_26.473431f3310770dc77e2.png",
     "static/media/InteractiveScaffolding.png": "/static/media/InteractiveScaffolding.1dd223d6d65cff1870e4.png",
     "static/media/DIS24.png": "/static/media/DIS24.20d8a6a443221755ee28.png",
     "static/media/VizQStudio.png": "/static/media/VizQStudio.94d753827b9cd281a526.png",
     "static/media/MisleadingChartQA.png": "/static/media/MisleadingChartQA.7f6b0be235dfd57ccccd.png",
     "static/media/EduAgentBench.png": "/static/media/EduAgentBench.0911abd9e5ca762b8501.png",
     "static/media/TheoryOfMind.png": "/static/media/TheoryOfMind.fbc3d6839f9263bb48ca.png",
-    "static/media/czx_pic_new.jpg": "/static/media/czx_pic_new.bba242dadf8e35689fd5.jpg",
     "static/media/DIS24WIP.png": "/static/media/DIS24WIP.b70d5883483a76563be1.png",
     "static/media/teaser_emnlp.png": "/static/media/teaser_emnlp.8b199f2b7313377aad13.png",
     "static/media/RelianceScope.png": "/static/media/RelianceScope.388d7e49907cad1c5e53.png",
@@ -34,12 +34,12 @@
     "static/media/PsyLogo.png": "/static/media/PsyLogo.0a9acb6d012764d331aa.png",
     "index.html": "/index.html",
     "main.8256d92d.css.map": "/static/css/main.8256d92d.css.map",
-    "main.c149b9db.js.map": "/static/js/main.c149b9db.js.map",
+    "main.cc9622ab.js.map": "/static/js/main.cc9622ab.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8256d92d.css",
-    "static/js/main.c149b9db.js"
+    "static/js/main.cc9622ab.js"
   ]
 }
