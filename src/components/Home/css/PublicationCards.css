@@ -2,6 +2,7 @@
   
 .year-block {
   text-align: left;
+  padding-right: 0 !important;
 }
 
 .year-large {
@@ -9,11 +10,14 @@
   color: #cccccc;   /* 设置年份的颜色 */
   line-height: 1;
   font-weight: bold;
-  padding: 10px;
+  padding: 10px 0;
+  margin: 0;
 }
 
 .publication-card {
-  padding: 10px;
+  padding: 10px 0;
+  margin-bottom: 1.5rem;
+  align-items: center !important;
 }
 
 .spacer {
@@ -24,12 +28,18 @@
 @media (max-width: 768px) {
   .year-block {
     text-align: left;
-    margin-bottom: 10px; /* 为年份和卡片之间添加一些间距 */
+    margin-bottom: 0.5rem !important;
+    padding-left: 1rem !important;
   }
 
   .year-large {
-    font-size: 24px; /* 屏幕较小时，缩小年份字体 */
+    font-size: 24px !important;
     color: #999999;
     text-align: left;
+    padding: 5px 0 !important;
+  }
+
+  .publication-card {
+    margin-bottom: 1rem !important;
   }
 }

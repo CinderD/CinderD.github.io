@@ -96,7 +96,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.linkedin.com/in/zixin-steven-chen-669253204/"
+                href="https://www.linkedin.com/in/zixin-chen-669253204/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -117,6 +117,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
+            {/* Resume hidden for now — CV pending update
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -129,6 +130,7 @@ function NavBar() {
                 Resume
               </Nav.Link>
             </Nav.Item>
+            */}
 
             {/* <Nav.Item>
               <Nav.Link

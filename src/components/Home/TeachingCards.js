@@ -3,6 +3,13 @@ import './css/TeachingCard.css'; // 样式文件
 
 const courses = [
   {
+    semester: "2025 Fall",
+    courseCode: "COMP 4021",
+    courseName: "Internet Computing",
+    school: "HKUST",
+    role: "Teaching Assistant"
+  },
+  {
     semester: "2024 Fall",
     courseCode: "COMP 2611",
     courseName: "Computer Organization",

@@ -6,9 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "LLM for Education",
-          "Visual Analytics",
-          "Human-AI Collaboration"
+          "Agentic AI",
+          "Human-AI Collaboration",
+          "AI for Education"
           
         ],
         autoStart: true,

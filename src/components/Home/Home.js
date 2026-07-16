@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import profilePic from "../../Assets/czx_pic_new.jpg";
+import profilePic from "../../Assets/zixin_profile_26.png";
 // import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -13,44 +13,49 @@ function Home() {
   return (
     <section>
 
-      <Container fluid className="home-section" id="home" style={{backgroundColor: '#d9dbdb'}}>
+      <Container fluid className="home-section" id="home" style={{backgroundColor: '#faf9f6'}}>
         {/* <Particle /> */}
         <Container className="home-content">
           <Row >
-            <Col md={7} className="home-header">
+            <Col md={8} xs={12} className="home-header" style={{ flex: '0 0 70%', maxWidth: '70%' }}>
               <h1 style={{ paddingBottom: 0, color: '#4f4f4f' }} className="heading">
               Hi There!
               </h1>
-              <p className="short-bio"  style={{color: '#4f4f4f'}}>I am <strong>Zixin (Steven) CHEN</strong>, a third-year PhD candidate at {}
-                <a className="link" href="http://vis.cse.ust.hk/" target="_blank" rel="noreferrer"><strong>HKUST VisLab</strong></a>, supervised by {}
-                <a className="link" href="http://huamin.org/" target="_blank" rel="noreferrer"><strong>Prof. Huamin Qu</strong></a>. My research centers on {}
-                <strong>Data Visualization</strong> and <strong>Human-AI Collaboration</strong>, with a particular emphasis on leveraging them in <strong>LLM for Education</strong>.
-                <p></p>
-                <p> 
-                I received my B.S. degree from HKUST in 2022, with major in Data Science & Technology 
-                and minor in Business. During my undergraduate study, I was honored to have worked with {}
-                <a className="link" href="https://www.cse.ust.hk/~mxj/" target="_blank" rel="noreferrer">Prof. Xiaojuan MA</a> and {}
-                <a className="link" href="https://www.cse.ust.hk/~yqsong/" target="_blank" rel="noreferrer">Prof. Yangqiu SONG</a>.
+              <p className="short-bio"  style={{color: '#4f4f4f'}}>I am <strong className="name-highlight">Zixin (Steven) Chen</strong>, a fourth-year PhD candidate at {}
+                <a className="link" href="http://vis.cse.ust.hk/" target="_blank" rel="noreferrer">HKUST VisLab</a>, supervised by {}
+                <a className="link" href="http://huamin.org/" target="_blank" rel="noreferrer">Prof. Huamin&nbsp;Qu</a>. {}
+                I am currently a research intern at the {}
+                <a className="link" href="https://github.com/QwenLM" target="_blank" rel="noreferrer">Qwen <span className="nb">Post-training</span> Team</a>, and previously at {}
+                <a className="link" href="https://www.microsoft.com/en-us/research/group/social-computing-beijing/" target="_blank" rel="noreferrer">Microsoft Research Asia</a> with {}
+                <a className="link" href="https://scholar.google.com/citations?user=5EQfAFIAAAAJ&hl=en&inst=1381320739207392350" target="_blank" rel="noreferrer">Dr. Xing&nbsp;Xie</a>. {}
+                I received my B.S. in Data Science &amp; Technology from HKUST in 2022.
+                </p>
+                {/* <br></br> */}
+                <p className="research-interest"  style={{color: '#4f4f4f'}}>
+                My research spans <strong className="research-highlight">Agentic AI, Foundation Models, and <span className="nb">Human-AI</span> Interaction</strong>, {}
+                specifically their applications in <strong className="research-highlight"><span className="edu-highlight">education</span></strong>.
+                </p>
+                <p className="research-interest"  style={{color: '#4f4f4f'}}>
+                Recently, I <span className="nb">post-train</span> and evaluate <strong className="research-highlight"><span className="nb">real-world</span> educational agents</strong> and analyze their {}
+                impact on people. More broadly, I have extensive experience building {}
+                <strong className="research-highlight"><span className="nb">human-centered</span> AI systems for education and science <span className="edu-highlight">(AI4Edu, AI4Sci)</span></strong>.
+                </p>
+                <p className="research-interest"  style={{color: '#4f4f4f'}}>
+                Meanwhile, as the team leader of the Vislab, I collaborated closely with {}
+                <a className="link" href="https://web.edu.hku.hk/faculty-academics/nlaw" target="_blank" rel="noreferrer">Prof. Nancy&nbsp;Law</a> on the {}
+                <a className="link" href="https://ideals.cite.hku.hk/" target="_blank" rel="noreferrer"><span className="nb">QEF-Funded</span> project</a> (20M HKD in total and 1.4M HKD for my team's share). {}
                 </p>
 
-                <p>
-                If you are interested in my research, please feel free to contact me via email: <strong>zchendf@connect.ust.hk</strong>
-                </p>
-              </p>
-
- 
-
-              
-              <div style={{ paddingLeft: 50, paddingTop:20,paddingBottom:20, textAlign: "left" }}>
+              <div className="type-wrapper" style={{ paddingTop:20,paddingBottom:20, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20, }}>
+            <Col md={4} xs={12} className="profile-pic-col" style={{ flex: '0 0 30%', maxWidth: '30%', paddingBottom: 20 }}>
               <img
                 src={profilePic}
                 alt="profile Pic"
-                className="img-fluid"
+                className="img-fluid profile-pic desktop-profile-pic"
                 style={{ maxHeight: "270px", marginLeft: 100 ,marginTop:60, borderRadius:0 }}
               />
             </Col>

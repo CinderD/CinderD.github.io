@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import {AiOutlineFilePdf} from "react-icons/ai";
 // import { BsGithub } from "react-icons/bs";
@@ -18,6 +18,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa6";
 
 function Home2() {
+  const [showAllPubs, setShowAllPubs] = useState(false);
   return (
     <Container fluid className="home-about-section" id="about" >
       <Container>
@@ -27,18 +28,28 @@ function Home2() {
               <span className="black"> News </span>
             </h1>
             <NewsCard />
+          </Col>
+        </Row>
+        <hr className="section-divider" />
+        <Row>
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "1.6em" }}>
-              <span className="black"> Publications </span>
+              <span className="black">{showAllPubs ? " All Publications " : " Featured Publications "}</span>
               
             </h1>
-            <PublicationCard />
-
+            <PublicationCard
+              showAll={showAllPubs}
+              onToggle={() => setShowAllPubs((v) => !v)}
+            />
+          </Col>
+        </Row>
+        <hr className="section-divider" />
+        <Row>
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "1.6em" }}>
               <span className="black"> Teaching </span>
             </h1>
             <TeachingCard />
-
-         
           </Col>
 
 
@@ -66,7 +77,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/zixin-steven-chen-669253204/"
+                  href="https://www.linkedin.com/in/zixin-chen-669253204/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
