@@ -37,8 +37,8 @@ function Home() {
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 Recently, I <span className="nb">post-train</span> and evaluate <strong className="research-highlight"><span className="nb">real-world</span> educational agents</strong> and analyze their {}
-                impact on people. More broadly, I have extensive experience building {}
-                <strong className="research-highlight"><span className="nb">human-centered</span> AI systems for education and science <span className="edu-highlight">(AI4Edu, AI4Sci)</span></strong>.
+                <strong className="research-highlight">impact on people</strong>. More broadly, I have extensive experience building {}
+                <strong className="research-highlight"><span className="nb">human-centered</span> AI systems for education and science</strong>.
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 Meanwhile, as the team leader of the Vislab, I collaborated closely with {}
