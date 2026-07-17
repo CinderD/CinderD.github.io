@@ -32,10 +32,10 @@ function Home() {
                 </p>
                 {/* <br></br> */}
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
-                Our work has been honored with a <strong className="research-highlight">Best Paper Award</strong> at {}
-                <a className="link" href="https://arxiv.org/pdf/2602.16251" target="_blank" rel="noreferrer">ACM L@S 2026</a> and a {}
-                <strong className="research-highlight">Best Paper Honorable Mention</strong> at {}
-                <a className="link" href="https://arxiv.org/abs/2512.18853" target="_blank" rel="noreferrer">IEEE PacificVis 2026</a>.
+                I am honored to have received multiple <strong className="research-highlight"><span className="nb">Best Paper</span> / <span className="nb">Honorable Mention</span> / Oral recognitions</strong> for my research at leading conferences ({}
+                <a className="link" href="https://arxiv.org/pdf/2602.16251" target="_blank" rel="noreferrer">ACM L@S 2026</a>, {}
+                <a className="link" href="https://arxiv.org/abs/2512.18853" target="_blank" rel="noreferrer">IEEE PacificVis 2026</a>, {}
+                <a className="link" href="https://arxiv.org/abs/2503.18172" target="_blank" rel="noreferrer">EMNLP 2025</a>).
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 My research spans <strong className="research-highlight">Agentic AI, Foundation Models, and <span className="nb">Human-AI</span> Interaction</strong>, {}
