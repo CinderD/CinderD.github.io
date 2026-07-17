@@ -36,9 +36,19 @@ function Home() {
                 specifically their applications in <strong className="research-highlight"><span className="edu-highlight">education</span></strong>.
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
-                Recently, I <span className="nb">post-train</span> and evaluate <strong className="research-highlight"><span className="nb">real-world</span> educational agents</strong> and analyze their {}
-                <strong className="research-highlight">impact on people</strong>. More broadly, I have extensive experience building {}
-                <strong className="research-highlight"><span className="nb">human-centered</span> AI systems for education and science</strong>.
+                Recently, I <span className="nb">post-train</span> and evaluate <strong className="research-highlight"><span className="nb">real-world</span> educational agents</strong><span className="ref">[
+                <a href="https://chat.qwen.ai/" title="Qwen3.6 &amp; Qwen3.7 — I trained the Learn Mode" target="_blank" rel="noreferrer">Qwen</a>, {}
+                <a href="https://arxiv.org/abs/2605.14322" title="Are Agents Ready to Teach? A Multi-Stage Benchmark for Real-World Teaching Workflows" target="_blank" rel="noreferrer">EduAgentBench</a>]</span> {}
+                and analyze their <strong className="research-highlight">impact on people</strong>. More broadly, I have extensive experience building {}
+                <strong className="research-highlight"><span className="nb">human-centered</span> AI systems for education</strong><span className="ref">[
+                <a href="https://doi.org/10.1109/TVCG.2026.3695959" title="VizQStudio: Iterative Visualization Literacy MCQs Design with Simulated Students" target="_blank" rel="noreferrer">TVCG&rsquo;26</a>, {}
+                <a href="https://arxiv.org/abs/2407.12423" title="StuGPTViz: A Visual Analytics Approach to Understand Student-ChatGPT Interactions" target="_blank" rel="noreferrer">VIS&rsquo;24</a>, {}
+                <a href="https://arxiv.org/abs/2507.20655" title="CoGrader: Transforming Instructors&rsquo; Assessment of Project Reports through Collaborative LLM Integration" target="_blank" rel="noreferrer">UIST&rsquo;25</a>, {}
+                <a href="https://dl.acm.org/doi/10.1145/3772363.3798931" title="From Passive Consumption to Active Interaction: Exploring Interactive LLM Scaffolding to Support Learning Engagement" target="_blank" rel="noreferrer">CHI&nbsp;EA&rsquo;26</a>]</span> {}
+                <strong className="research-highlight">and science</strong><span className="ref">[
+                <a href="https://doi.org/10.1109/TVCG.2025.3636102" title="CellScout: Visual Analytics for Mining Biomarkers in Cell State Discovery" target="_blank" rel="noreferrer">TVCG&rsquo;25</a>, {}
+                <a href="https://arxiv.org/abs/2604.23356" title="VeriLLMed: Interactive Visual Debugging of Medical Large Language Models with Knowledge Graphs" target="_blank" rel="noreferrer">VIS&rsquo;26</a>, {}
+                <a href="https://arxiv.org/abs/2506.14786" title="PIPE: Physics-Informed Position Encoding for Alignment of Satellite Images and Time Series" target="_blank" rel="noreferrer">NeurIPS&rsquo;25</a>]</span>.
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 Meanwhile, as the team leader of the Vislab, I collaborated closely with {}

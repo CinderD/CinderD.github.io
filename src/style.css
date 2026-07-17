@@ -1828,6 +1828,34 @@ body {
   white-space: nowrap !important;
 }
 
+/* inline citations: superscript venue tags anchoring a bio keyword to the
+   work behind it. Sits outside the <strong> so it stays light against the
+   bold keyword rather than inheriting its weight. */
+.ref {
+  font-size: 0.58em !important;
+  vertical-align: super !important;
+  line-height: 0 !important;
+  margin-left: 0.18em !important;
+  letter-spacing: 0.02em !important;
+  color: var(--accent) !important;
+  font-weight: 600 !important;
+}
+
+.ref a {
+  color: var(--accent) !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  border-bottom: 1px solid transparent !important;
+  transition: color 0.15s ease, border-color 0.15s ease !important;
+}
+
+.ref a:hover,
+.ref a:focus {
+  color: var(--accent-deep) !important;
+  border-bottom-color: currentColor !important;
+}
+
 /* cap the reading measure: the bio column runs ~100 characters per line on a
    wide monitor, well past the comfortable 65-75 range */
 @media (min-width: 992px) {
