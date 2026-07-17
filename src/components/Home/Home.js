@@ -42,7 +42,7 @@ function Home() {
                 <strong className="research-highlight">and science</strong><span className="ref"><a href="https://doi.org/10.1109/TVCG.2025.3636102" title="CellScout: Visual Analytics for Mining Biomarkers in Cell State Discovery (TVCG 2025)" target="_blank" rel="noreferrer">9</a>,<a href="https://arxiv.org/abs/2604.23356" title="VeriLLMed: Interactive Visual Debugging of Medical Large Language Models with Knowledge Graphs (IEEE VIS 2026)" target="_blank" rel="noreferrer">10</a>,<a href="https://arxiv.org/abs/2506.14786" title="PIPE: Physics-Informed Position Encoding for Alignment of Satellite Images and Time Series (NeurIPS 2025)" target="_blank" rel="noreferrer">11</a></span>.
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
-                I am honored to have received multiple <strong className="research-highlight"><span className="nb">Best Paper</span> / <span className="nb">Honorable Mention</span> / Oral recognitions</strong> for my research at leading conferences ({}
+                I am honored to have received multiple <strong className="research-highlight"><span className="nb">Best Paper</span> / <span className="nb">Honorable Mention</span> / Oral recognitions</strong> at leading conferences ({}
                 <a className="link nb" href="https://arxiv.org/pdf/2602.16251" target="_blank" rel="noreferrer">ACM L@S 2026</a>, {}
                 <a className="link nb" href="https://arxiv.org/abs/2512.18853" target="_blank" rel="noreferrer">IEEE PacificVis 2026</a>, {}
                 <a className="link nb" href="https://arxiv.org/abs/2503.18172" target="_blank" rel="noreferrer">EMNLP 2025</a>).
