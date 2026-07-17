@@ -1832,27 +1832,29 @@ body {
    work behind it. Sits outside the <strong> so it stays light against the
    bold keyword rather than inheriting its weight. */
 .ref {
-  font-size: 0.58em !important;
+  font-size: 0.62em !important;
   vertical-align: super !important;
   line-height: 0 !important;
-  margin-left: 0.18em !important;
-  letter-spacing: 0.02em !important;
-  color: var(--accent) !important;
+  margin-left: 0.12em !important;
+  color: var(--muted) !important;
   font-weight: 600 !important;
+  white-space: nowrap !important;
 }
 
+/* muted by default so the citation stays an aside rather than competing
+   with the keyword it annotates; it warms up only on hover */
 .ref a {
-  color: var(--accent) !important;
+  color: var(--muted) !important;
   font-weight: 600 !important;
   text-decoration: none !important;
-  white-space: nowrap !important;
+  padding: 0 0.08em !important;
   border-bottom: 1px solid transparent !important;
   transition: color 0.15s ease, border-color 0.15s ease !important;
 }
 
 .ref a:hover,
 .ref a:focus {
-  color: var(--accent-deep) !important;
+  color: var(--accent) !important;
   border-bottom-color: currentColor !important;
 }
 
