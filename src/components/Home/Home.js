@@ -43,9 +43,9 @@ function Home() {
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 I am honored to have received multiple <strong className="research-highlight"><span className="nb">Best Paper</span> / <span className="nb">Honorable Mention</span> / Oral recognitions</strong> at leading conferences ({}
-                <a className="link nb" href="https://arxiv.org/pdf/2602.16251" target="_blank" rel="noreferrer">ACM L@S 2026</a>, {}
-                <a className="link nb" href="https://arxiv.org/abs/2512.18853" target="_blank" rel="noreferrer">IEEE PacificVis 2026</a>, {}
-                <a className="link nb" href="https://arxiv.org/abs/2503.18172" target="_blank" rel="noreferrer">EMNLP 2025</a>).
+                <a className="link nb" href="https://www.linkedin.com/posts/yan-timanovsky-7725165_bestpaperaward-reliancescope-bestpaper-ugcPost-7480638173820108801-XAIs/" target="_blank" rel="noreferrer">ACM L@S 2026</a>, {}
+                <a className="link nb" href="https://pacificvis2026.github.io/full-program.html" target="_blank" rel="noreferrer">IEEE PacificVis 2026</a>, {}
+                <a className="link nb" href="https://aclanthology.org/2025.emnlp-main.695/" target="_blank" rel="noreferrer">EMNLP 2025</a>).
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 Meanwhile, as the team leader of the Vislab, I collaborated closely with {}
