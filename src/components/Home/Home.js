@@ -32,12 +32,6 @@ function Home() {
                 </p>
                 {/* <br></br> */}
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
-                I am honored to have received multiple <strong className="research-highlight"><span className="nb">Best Paper</span> / <span className="nb">Honorable Mention</span> / Oral recognitions</strong> for my research at leading conferences ({}
-                <a className="link" href="https://arxiv.org/pdf/2602.16251" target="_blank" rel="noreferrer">ACM L@S 2026</a>, {}
-                <a className="link" href="https://arxiv.org/abs/2512.18853" target="_blank" rel="noreferrer">IEEE PacificVis 2026</a>, {}
-                <a className="link" href="https://arxiv.org/abs/2503.18172" target="_blank" rel="noreferrer">EMNLP 2025</a>).
-                </p>
-                <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 My research spans <strong className="research-highlight">Agentic AI, Foundation Models, and <span className="nb">Human-AI</span> Interaction</strong>, {}
                 specifically their applications in <strong className="research-highlight"><span className="edu-highlight">education</span></strong>.
                 </p>
@@ -46,6 +40,12 @@ function Home() {
                 and analyze their <strong className="research-highlight">impact on humans and society</strong><span className="ref"><a href="https://arxiv.org/pdf/2602.16251" title="RelianceScope: An Analytical Framework for Examining Students&rsquo; Reliance on Generative AI Chatbots in Problem Solving (ACM L@S 2026, Best Paper Award)" target="_blank" rel="noreferrer">4</a></span>. More broadly, I have extensive experience building {}
                 <strong className="research-highlight"><span className="nb">human-centered</span> AI systems for education</strong><span className="ref"><a href="https://doi.org/10.1109/TVCG.2026.3695959" title="VizQStudio: Iterative Visualization Literacy MCQs Design with Simulated Students (TVCG 2026)" target="_blank" rel="noreferrer">5</a>,<a href="https://arxiv.org/abs/2407.12423" title="StuGPTViz: A Visual Analytics Approach to Understand Student-ChatGPT Interactions (IEEE VIS 2024)" target="_blank" rel="noreferrer">6</a>,<a href="https://arxiv.org/abs/2507.20655" title="CoGrader: Transforming Instructors&rsquo; Assessment of Project Reports through Collaborative LLM Integration (ACM UIST 2025)" target="_blank" rel="noreferrer">7</a>,<a href="https://dl.acm.org/doi/10.1145/3772363.3798931" title="From Passive Consumption to Active Interaction: Exploring Interactive LLM Scaffolding to Support Learning Engagement (ACM CHI EA 2026)" target="_blank" rel="noreferrer">8</a></span> {}
                 <strong className="research-highlight">and science</strong><span className="ref"><a href="https://doi.org/10.1109/TVCG.2025.3636102" title="CellScout: Visual Analytics for Mining Biomarkers in Cell State Discovery (TVCG 2025)" target="_blank" rel="noreferrer">9</a>,<a href="https://arxiv.org/abs/2604.23356" title="VeriLLMed: Interactive Visual Debugging of Medical Large Language Models with Knowledge Graphs (IEEE VIS 2026)" target="_blank" rel="noreferrer">10</a>,<a href="https://arxiv.org/abs/2506.14786" title="PIPE: Physics-Informed Position Encoding for Alignment of Satellite Images and Time Series (NeurIPS 2025)" target="_blank" rel="noreferrer">11</a></span>.
+                </p>
+                <p className="research-interest"  style={{color: '#4f4f4f'}}>
+                I am honored to have received multiple <strong className="research-highlight"><span className="nb">Best Paper</span> / <span className="nb">Honorable Mention</span> / Oral recognitions</strong> for my research at leading conferences ({}
+                <a className="link nb" href="https://arxiv.org/pdf/2602.16251" target="_blank" rel="noreferrer">ACM L@S 2026</a>, {}
+                <a className="link nb" href="https://arxiv.org/abs/2512.18853" target="_blank" rel="noreferrer">IEEE PacificVis 2026</a>, {}
+                <a className="link nb" href="https://arxiv.org/abs/2503.18172" target="_blank" rel="noreferrer">EMNLP 2025</a>).
                 </p>
                 <p className="research-interest"  style={{color: '#4f4f4f'}}>
                 Meanwhile, as the team leader of the Vislab, I collaborated closely with {}
