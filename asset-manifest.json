@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd51b7d9.css",
-    "main.js": "/static/js/main.1a724f7a.js",
+    "main.css": "/static/css/main.6f2f8521.css",
+    "main.js": "/static/js/main.f66fe4fb.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -34,13 +34,13 @@
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/PsyLogo.png": "/static/media/PsyLogo.0a9acb6d012764d331aa.png",
     "index.html": "/index.html",
-    "main.bd51b7d9.css.map": "/static/css/main.bd51b7d9.css.map",
-    "main.1a724f7a.js.map": "/static/js/main.1a724f7a.js.map",
+    "main.6f2f8521.css.map": "/static/css/main.6f2f8521.css.map",
+    "main.f66fe4fb.js.map": "/static/js/main.f66fe4fb.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd51b7d9.css",
-    "static/js/main.1a724f7a.js"
+    "static/css/main.6f2f8521.css",
+    "static/js/main.f66fe4fb.js"
   ]
 }
