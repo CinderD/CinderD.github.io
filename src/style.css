@@ -12,7 +12,8 @@
   --accent: #a27b5c;        /* warm brown */
   --accent-deep: #855f42;   /* darker brown for hover */
   --accent-soft: #c99263;   /* light brown for links */
-  --highlight: #f3e4cf;     /* soft warm marker */
+  --highlight: #f3e4cf;     /* soft warm marker — badge/pill backgrounds */
+  --marker: #fbe6a8;        /* brighter marker for text highlights (name, education) */
   --line: #e8e1d6;          /* hairline / dividers */
   --shadow-card: 0 1px 2px rgba(47, 43, 38, 0.04), 0 10px 30px -18px rgba(47, 43, 38, 0.22);
   --shadow-card-hover: 0 2px 4px rgba(47, 43, 38, 0.06), 0 22px 44px -22px rgba(47, 43, 38, 0.30);
@@ -198,7 +199,7 @@ button:focus {
 
 .name-highlight::after {
   content: '' !important;
-  background-color: var(--highlight) !important;
+  background-color: var(--marker) !important;
   height: 38% !important;
   position: absolute !important;
   bottom: 0.02rem !important;
@@ -225,7 +226,7 @@ button:focus {
 
 .edu-highlight::after {
   content: '' !important;
-  background-color: var(--highlight) !important;
+  background-color: var(--marker) !important;
   height: 38% !important;
   position: absolute !important;
   bottom: 0.02rem !important;
