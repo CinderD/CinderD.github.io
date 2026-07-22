@@ -26,8 +26,19 @@ import TheoryOfMind from "../../Assets/TheoryOfMind.png";
 import RelianceScope from "../../Assets/RelianceScope.png";
 import VizQStudio from "../../Assets/VizQStudio.png";
 import VeriLLMed from "../../Assets/VeriLLMed.png";
+import InformalLearning from "../../Assets/InformalLearning.png";
 
 const publications = [
+  {
+    year: 2026,
+    title: "Informal Learning Emerges in Everyday Human-LLM Interaction.",
+    authors: "Zixin Chen, Haotian Li, Ziang Xiao, Huamin Qu, and Xing Xie",
+    conference: "Preprint (Under Review)",
+    pdfLink: "https://arxiv.org/abs/2607.17643",
+    codeLink: "https://cinderd.github.io/",
+    videoLink: "https://cinderd.github.io/",
+    imgSrc: InformalLearning,
+  },
   {
     year: 2026,
     title: "WildTrace: Benchmarking Natural Evidence Trails in Long-Context Reasoning.",

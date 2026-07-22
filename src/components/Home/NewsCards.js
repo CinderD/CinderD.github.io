@@ -3,6 +3,16 @@ import './css/NewsCards.css'; // 确保有对应的样式文件
 import newsIcon from '../../Assets/news-icon.png'; // 引入图标路径
 const newsItems = [
   {
+    date: "Jul. 20, 2026",
+    content: [
+      { text: "The final arXiv of our ", highlight: false, link: null },
+      { text: "year-long project", highlight: true, link: "https://arxiv.org/abs/2607.17643" },
+      { text: " is out — studying how ", highlight: false, link: null },
+      { text: "informal learning", highlight: true, link: null },
+      { text: " emerges in everyday human-LLM interaction. Huge thanks to my wonderful collaborators!", highlight: false, link: null },
+    ]
+  },
+  {
     date: "Jul. 15, 2026",
     content: [
       { text: "One co-author full paper accepted by ", highlight: false, link: null },
@@ -66,22 +76,6 @@ const newsItems = [
       { text: " & ", highlight: false, link: null },
       { text: "ACM L@S 2026.", highlight: false, link: "https://www.solaresearch.org/events/lak/lak26/" },
       { text: "  Congrats the team!", highlight: false, link: null },
-    ]
-  },
-  {
-    date: "Feb. 05, 2026",
-    content: [
-      { text: "Honored to start my internship at ", highlight: false, link: null },
-      { text: "Qwen Team, Alibaba Group", highlight: true, link: "https://github.com/QwenLM" },
-      { text: "! I will be working with ", highlight: false, link: null },
-      { text: "Peng Liu", highlight: true, link: null },
-      { text: " and ", highlight: false, link: null },
-      { text: "Jianhong Tu", highlight: true, link: "https://scholar.google.com/citations?hl=en&user=EvVKNrAAAAAJ&inst=1381320739207392350" },
-      { text: " @ ", highlight: false, link: null },
-      { text: "Agent Team, Foundation Model Group", highlight: true, link: "https://github.com/QwenLM/Qwen-Agent" },
-      { text: ", under the supervision of ", highlight: false, link: null },
-      { text: "Junyang Lin", highlight: true, link: "https://scholar.google.com/citations?user=qp6IwtgAAAAJ&hl=zh-CN" },
-      { text: ".", highlight: false, link: null }
     ]
   }
 ];
