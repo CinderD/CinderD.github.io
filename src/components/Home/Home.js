@@ -25,7 +25,8 @@ function Home() {
                 <a className="link" href="http://vis.cse.ust.hk/" target="_blank" rel="noreferrer">HKUST VisLab</a>, supervised by {}
                 <a className="link" href="http://huamin.org/" target="_blank" rel="noreferrer">Prof. Huamin&nbsp;Qu</a>. {}
                 I am currently a research intern at the {}
-                <a className="link" href="https://github.com/QwenLM" target="_blank" rel="noreferrer">Qwen <span className="nb">Post-training</span> Team</a>, and previously at {}
+                <a className="link" href="https://github.com/QwenLM" target="_blank" rel="noreferrer">Qwen <span className="nb">Post-training</span> Team</a> with {}
+                <a className="link" href="https://scholar.google.com/citations?user=Po65v_MAAAAJ&hl=en" target="_blank" rel="noreferrer">Dr. Bei&nbsp;Chen</a>, and previously at {}
                 <a className="link" href="https://www.microsoft.com/en-us/research/group/social-computing-beijing/" target="_blank" rel="noreferrer">Microsoft Research Asia</a> with {}
                 <a className="link" href="https://scholar.google.com/citations?user=5EQfAFIAAAAJ&hl=en&inst=1381320739207392350" target="_blank" rel="noreferrer">Dr. Xing&nbsp;Xie</a>. {}
                 I received my B.S. in Data Science &amp; Technology from HKUST in 2022.
