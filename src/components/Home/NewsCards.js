@@ -3,6 +3,18 @@ import './css/NewsCards.css'; // 确保有对应的样式文件
 import newsIcon from '../../Assets/news-icon.png'; // 引入图标路径
 const newsItems = [
   {
+    date: "Aug. 01, 2026",
+    content: [
+      { text: "Excited to release ", highlight: false, link: null },
+      { text: "TeachArena", highlight: true, link: "https://arxiv.org/abs/2605.14322" },
+      { text: " — the most realistic and comprehensive benchmark for agents' ", highlight: false, link: null },
+      { text: "real-world teaching ability", highlight: true, link: null },
+      { text: ", with all ", highlight: false, link: null },
+      { text: "data released", highlight: true, link: null },
+      { text: "!", highlight: false, link: null },
+    ]
+  },
+  {
     date: "Jul. 20, 2026",
     content: [
       { text: "The final arXiv of our ", highlight: false, link: null },
