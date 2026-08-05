@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.684aecb3.css",
-    "main.js": "/static/js/main.89f43543.js",
+    "main.css": "/static/css/main.697042f9.css",
+    "main.js": "/static/js/main.d171bacd.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/FYP_A_.pdf": "/static/media/FYP_A_.1ddbcf7004542712ef43.pdf",
@@ -25,6 +25,7 @@
     "static/media/EduAgentBench.png": "/static/media/EduAgentBench.0911abd9e5ca762b8501.png",
     "static/media/TheoryOfMind.png": "/static/media/TheoryOfMind.fbc3d6839f9263bb48ca.png",
     "static/media/DIS24WIP.png": "/static/media/DIS24WIP.b70d5883483a76563be1.png",
+    "static/media/TACT.png": "/static/media/TACT.244b1653a82d101e921a.png",
     "static/media/InformalLearning.png": "/static/media/InformalLearning.f6246f602d9f61d6eb59.png",
     "static/media/teaser_emnlp.png": "/static/media/teaser_emnlp.8b199f2b7313377aad13.png",
     "static/media/RelianceScope.png": "/static/media/RelianceScope.388d7e49907cad1c5e53.png",
@@ -35,13 +36,13 @@
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/PsyLogo.png": "/static/media/PsyLogo.0a9acb6d012764d331aa.png",
     "index.html": "/index.html",
-    "main.684aecb3.css.map": "/static/css/main.684aecb3.css.map",
-    "main.89f43543.js.map": "/static/js/main.89f43543.js.map",
+    "main.697042f9.css.map": "/static/css/main.697042f9.css.map",
+    "main.d171bacd.js.map": "/static/js/main.d171bacd.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.684aecb3.css",
-    "static/js/main.89f43543.js"
+    "static/css/main.697042f9.css",
+    "static/js/main.d171bacd.js"
   ]
 }
