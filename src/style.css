@@ -1936,6 +1936,11 @@ body {
 .publication-card:hover {
   background-color: rgba(162, 123, 92, 0.06) !important;
 }
+/* Last entry: drop the hairline so the toggle button sits in clean space
+   above the single section divider (avoids a double-line around it). */
+.publication-card--last {
+  border-bottom: none !important;
+}
 .publication-block img {
   object-fit: contain !important;
   height: auto !important;

@@ -292,10 +292,15 @@ function PublicationCards({ showAll, onToggle }) {
     return acc;
   }, {});
 
+  const sortedYears = Object.keys(groupedPublications).sort((a, b) => b - a);
+  const lastYear = sortedYears[sortedYears.length - 1];
+  const lastPub = lastYear
+    ? groupedPublications[lastYear][groupedPublications[lastYear].length - 1]
+    : null;
+
   return (
     <Container>
-      {Object.keys(groupedPublications)
-        .sort((a, b) => b - a) // Sort years in descending order
+      {sortedYears
         .map((year) => (
           <React.Fragment key={year}>
             {showAll && (
@@ -308,7 +313,7 @@ function PublicationCards({ showAll, onToggle }) {
             <Row>
               <Col md={12}>
               {groupedPublications[year].map((pub, index) => (
-                <Row key={index} className="publication-card">
+                <Row key={index} className={`publication-card${pub === lastPub ? " publication-card--last" : ""}`}>
                   <Col md={3} xs={12} className="publication-block">
                     <img
                       src={pub.imgSrc}
