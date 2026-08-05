@@ -27,6 +27,7 @@ import RelianceScope from "../../Assets/RelianceScope.png";
 import VizQStudio from "../../Assets/VizQStudio.png";
 import VeriLLMed from "../../Assets/VeriLLMed.png";
 import InformalLearning from "../../Assets/InformalLearning.png";
+import TACT from "../../Assets/TACT.png";
 
 const publications = [
   {
@@ -58,6 +59,18 @@ const publications = [
     codeLink: "https://cinderd.github.io/",
     videoLink: "https://cinderd.github.io/",
     imgSrc: EduAgentBench,
+  },
+  {
+    year: 2026,
+    title: "TACT: Taxonomy-Aligned Post-Training for Pedagogically Adaptive English Tutoring.",
+    authors: "Dongjie Yang, Siyan Lin, Leixian Shen, Rui Sheng, Huamin Qu, Zixin Chen",
+    conference: "Preprint (Under Review)",
+    corresponding: true,
+    representative: true,
+    pdfLink: "https://arxiv.org/abs/2608.03952",
+    codeLink: "https://cinderd.github.io/",
+    videoLink: "https://cinderd.github.io/",
+    imgSrc: TACT,
   },
   {
     year: 2026,
@@ -105,6 +118,7 @@ const publications = [
     title: "From Passive Consumption to Active Interaction: Exploring Interactive LLM Scaffolding to Support Learning Engagement.",
     authors: "Zixin Chen, Haotian Li, Zhe Liu, Huamin Qu, and Xing Xie",
     conference: "ACM CHI EA 2026",
+    representative: false,
     pdfLink: "https://dl.acm.org/doi/10.1145/3772363.3798931",
     codeLink: "https://cinderd.github.io/",
     videoLink: "https://cinderd.github.io/",
@@ -284,11 +298,13 @@ function PublicationCards({ showAll, onToggle }) {
         .sort((a, b) => b - a) // Sort years in descending order
         .map((year) => (
           <React.Fragment key={year}>
-            <Row>
-              <Col md={12} xs={12} className="year-block">
-                <h1 className="year-large">{year}</h1>
-              </Col>
-            </Row>
+            {showAll && (
+              <Row>
+                <Col md={12} xs={12} className="year-block">
+                  <h1 className="year-large">{year}</h1>
+                </Col>
+              </Row>
+            )}
             <Row>
               <Col md={12}>
               {groupedPublications[year].map((pub, index) => (
@@ -312,7 +328,10 @@ function PublicationCards({ showAll, onToggle }) {
                         return (
                           <span key={i}>
                             {author === myName ? (
-                              <strong style={{ textDecoration: "underline" }}>{authorWithNBSP}</strong>
+                              <>
+                                <strong style={{ textDecoration: "underline" }}>{authorWithNBSP}</strong>
+                                {pub.corresponding && <sup className="corr-mark">†</sup>}
+                              </>
                             ) : (
                               authorWithNBSP
                             )}
@@ -321,6 +340,9 @@ function PublicationCards({ showAll, onToggle }) {
                         );
                       })}
                     </p>
+                    {pub.corresponding && (
+                      <p className="publication-corresponding">† Corresponding Author</p>
+                    )}
                     <p className="publication-conference">{pub.conference}</p>
                     {pub.award && <span className="pub-award">{pub.award}</span>}
                     <div className="publication-links">

@@ -3,6 +3,16 @@ import './css/NewsCards.css'; // 确保有对应的样式文件
 import newsIcon from '../../Assets/news-icon.png'; // 引入图标路径
 const newsItems = [
   {
+    date: "Aug. 05, 2026",
+    content: [
+      { text: "New arXiv — ", highlight: false, link: null },
+      { text: "TACT", highlight: true, link: "https://arxiv.org/abs/2608.03952" },
+      { text: ", post-training LLMs into ", highlight: false, link: null },
+      { text: "pedagogically adaptive English tutors", highlight: true, link: null },
+      { text: ". Glad to advise this student-led work!", highlight: false, link: null },
+    ]
+  },
+  {
     date: "Aug. 01, 2026",
     content: [
       { text: "Excited to release ", highlight: false, link: null },

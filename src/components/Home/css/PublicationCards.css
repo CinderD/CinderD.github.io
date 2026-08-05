@@ -20,6 +20,20 @@
   align-items: center !important;
 }
 
+.corr-mark {
+  color: #855f42; /* accent-deep */
+  font-weight: 700;
+  margin-left: 1px;
+  text-decoration: none;
+}
+
+.publication-corresponding {
+  font-size: 0.78rem;
+  color: #9a8f82;
+  font-style: italic;
+  margin: 2px 0 0 0;
+}
+
 .spacer {
   height: 20px;
 }
