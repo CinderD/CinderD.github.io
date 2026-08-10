@@ -3,6 +3,27 @@ import './css/NewsCards.css'; // 确保有对应的样式文件
 import newsIcon from '../../Assets/news-icon.png'; // 引入图标路径
 const newsItems = [
   {
+    date: "Aug. 10, 2026",
+    content: [
+      { text: "💬 Glad to serve as an ", highlight: false, link: null },
+      { text: "Associate Chair (AC)", highlight: true, link: null },
+      { text: " of ", highlight: false, link: null },
+      { text: "ACM CHI 2027", highlight: true, link: "https://chi2027.acm.org/" },
+      { text: ".", highlight: false, link: null },
+    ]
+  },
+  {
+    date: "Aug. 08, 2026",
+    content: [
+      { text: "Qwen3.8", highlight: true, link: "https://qwenlm.github.io/blog/qwen3.8/" },
+      { text: " is released! I trained its ", highlight: false, link: null },
+      { text: "Learn", highlight: true, link: null },
+      { text: " and ", highlight: false, link: null },
+      { text: "Agent Co-work", highlight: true, link: null },
+      { text: " modes for enterprise & personal workflows.", highlight: false, link: null },
+    ]
+  },
+  {
     date: "Aug. 05, 2026",
     content: [
       { text: "New arXiv — ", highlight: false, link: null },
