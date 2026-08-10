@@ -16,7 +16,7 @@ const newsItems = [
     date: "Aug. 08, 2026",
     content: [
       { text: "Qwen3.8", highlight: true, link: "https://qwenlm.github.io/blog/qwen3.8/" },
-      { text: " is released! I trained its ", highlight: false, link: null },
+      { text: " is released! I contributed to the training of its ", highlight: false, link: null },
       { text: "Learn", highlight: true, link: null },
       { text: " and ", highlight: false, link: null },
       { text: "Agent Co-work", highlight: true, link: null },
@@ -38,9 +38,9 @@ const newsItems = [
     content: [
       { text: "Excited to release ", highlight: false, link: null },
       { text: "TeachArena", highlight: true, link: "https://arxiv.org/abs/2605.14322" },
-      { text: " — the most realistic and comprehensive benchmark for agents' ", highlight: false, link: null },
+      { text: " — the most comprehensive benchmark for agents' ", highlight: false, link: null },
       { text: "real-world teaching ability", highlight: true, link: null },
-      { text: ", with all ", highlight: false, link: null },
+      { text: ", ", highlight: false, link: null },
       { text: "data released", highlight: true, link: null },
       { text: "!", highlight: false, link: null },
     ]
@@ -58,15 +58,9 @@ const newsItems = [
   {
     date: "Jul. 15, 2026",
     content: [
-      { text: "One co-author full paper accepted by ", highlight: false, link: null },
+      { text: "Two co-author full papers accepted by ", highlight: false, link: null },
       { text: "IEEE VIS 2026", highlight: true, link: "https://arxiv.org/abs/2604.23356" },
-      { text: " (CCF-A)", highlight: false, link: null }
-    ]
-  },
-  {
-    date: "Jul. 11, 2026",
-    content: [
-      { text: "One co-author full paper accepted by ", highlight: false, link: null },
+      { text: " (CCF-A) & ", highlight: false, link: null },
       { text: "ACM MM 2026", highlight: true, link: "https://arxiv.org/abs/2603.28583" },
       { text: " (CCF-A/CORE-A*)", highlight: false, link: null }
     ]
@@ -91,34 +85,6 @@ const newsItems = [
       { text: " for both — feel free to try it on ", highlight: false, link: null },
       { text: "Qwen Chat", highlight: true, link: "https://chat.qwen.ai/" },
       { text: ".", highlight: false, link: null }
-    ]
-  },
-  {
-    date: "May. 09, 2026",
-    content: [
-      { text: "One first-author full paper accepted by ", highlight: false, link: null },
-      { text: "IEEE Transactions on Visualization and Computer Graphics", highlight: true, link: "https://arxiv.org/pdf/2603.00994" },
-      { text: " (CCF-A/CORE-A*)", highlight: false, link: null }
-    ]
-  },
-  {
-    date: "Apr. 22, 2026",
-    content: [
-      { text: "🏅 Our paper won the IEEE PacificVIS'26 ", highlight: false, link: null },
-      { text: "Best Paper Honorable Mention Award", highlight: true, award: true, link: null },
-      { text: " (TVCG Track). Congrats the team!", highlight: false, link: null },
-    ]
-  },
-  {
-    date: "Apr. 07, 2026",
-    content: [
-      { text: "Four papers accepted to ", highlight: false, link: null },
-      { text: "ACM CHI 2026 & CHI EA 2026", highlight: true, link: "https://chi2026.acm.org/" },
-      { text: " & ", highlight: false, link: null },
-      { text: "ACL 2026", highlight: true, link: "https://2026.aclweb.org/" },
-      { text: " & ", highlight: false, link: null },
-      { text: "ACM L@S 2026.", highlight: false, link: "https://www.solaresearch.org/events/lak/lak26/" },
-      { text: "  Congrats the team!", highlight: false, link: null },
     ]
   }
 ];
