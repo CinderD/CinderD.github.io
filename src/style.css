@@ -532,6 +532,68 @@ button:focus {
   padding-left: 50px !important;
 }
 
+/* availability note — a quiet, refined "open to opportunities" line that
+   closes the intro. Content-width soft chip: gentle warm gradient, hairline
+   border and a low, diffuse shadow rather than a heavy filled alert box. */
+.availability {
+  display: inline-flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  font-size: 0.95em !important;
+  line-height: 1.55 !important;
+  letter-spacing: 0.1px !important;
+  margin: 26px 0 0 50px !important;
+  padding: 10px 20px 10px 16px !important;
+  color: var(--ink-body) !important;
+  background: linear-gradient(180deg, #fdf7ef 0%, #f8ecd9 100%) !important;
+  border: 1px solid #ecdcc4 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 1px 1px rgba(47, 43, 38, 0.03),
+              0 12px 26px -18px rgba(162, 123, 92, 0.5) !important;
+}
+
+.availability strong {
+  color: var(--accent-deep) !important;
+  font-weight: 600 !important;
+}
+
+.availability .avail-date {
+  color: var(--accent) !important;
+  font-weight: 600 !important;
+  white-space: nowrap !important;
+}
+
+.availability-dot {
+  position: relative !important;
+  flex: 0 0 auto !important;
+  margin-top: 0.5em !important; /* align with the first text line */
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background: #43b05e !important; /* open-to-work green */
+  box-shadow: 0 0 0 3px rgba(67, 176, 94, 0.16) !important;
+}
+
+/* soft breathing halo — subtle, not blinking */
+.availability-dot::after {
+  content: '' !important;
+  position: absolute !important;
+  inset: 0 !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 0 0 rgba(67, 176, 94, 0.4) !important;
+  animation: availPulse 2.6s ease-out infinite !important;
+}
+
+@keyframes availPulse {
+  0%   { box-shadow: 0 0 0 0 rgba(67, 176, 94, 0.4); }
+  70%  { box-shadow: 0 0 0 7px rgba(67, 176, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(67, 176, 94, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .availability-dot::after { animation: none !important; }
+}
+
 .main-name { 
   /* color of name */
   color: #4f4f4f;
@@ -1352,6 +1414,15 @@ button:focus {
   .short-bio,
   .research-interest {
     text-align: justify !important;
+  }
+
+  .availability {
+    display: flex !important;
+    margin-left: 0 !important;
+    margin-top: 18px !important;
+    font-size: 0.95em !important;
+    padding: 11px 16px !important;
+    border-radius: 16px !important;
   }
 }
 

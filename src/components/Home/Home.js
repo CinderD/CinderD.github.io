@@ -21,7 +21,7 @@ function Home() {
               <h1 style={{ paddingBottom: 0, color: '#4f4f4f' }} className="heading">
               Hi There!
               </h1>
-              <p className="short-bio"  style={{color: '#4f4f4f'}}>I am <strong className="name-highlight">Zixin (Steven) Chen</strong>, a fourth-year PhD candidate at {}
+              <p className="short-bio"  style={{color: '#4f4f4f'}}>I am <strong className="name-highlight">Zixin (Steven) Chen</strong>, a final-year PhD candidate at {}
                 <a className="link" href="http://vis.cse.ust.hk/" target="_blank" rel="noreferrer">HKUST VisLab</a>, supervised by {}
                 <a className="link" href="http://huamin.org/" target="_blank" rel="noreferrer">Prof. Huamin&nbsp;Qu</a>. {}
                 I am currently a research intern at the {}
@@ -52,6 +52,11 @@ function Home() {
                 Meanwhile, as the team leader of the Vislab, I collaborated closely with {}
                 <a className="link" href="https://web.edu.hku.hk/faculty-academics/nlaw" target="_blank" rel="noreferrer">Prof. Nancy&nbsp;Law</a> on the {}
                 <a className="link" href="https://ideals.cite.hku.hk/" target="_blank" rel="noreferrer"><span className="nb">QEF-Funded</span> project</a> (20M HKD in total and 1.4M HKD for my team's share). {}
+                </p>
+
+                <p className="availability">
+                  <span className="availability-dot" aria-hidden="true"></span>
+                  <span className="availability-text">I am <strong>actively seeking postdoc &amp; industry opportunities</strong> starting <span className="avail-date">Jan 2027</span> &mdash; feel free to reach out!</span>
                 </p>
 
               <div className="type-wrapper" style={{ paddingTop:20,paddingBottom:20, textAlign: "left" }}>
