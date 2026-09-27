@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import {AiOutlineFilePdf} from "react-icons/ai";
 // import { BsGithub } from "react-icons/bs";
@@ -19,6 +19,22 @@ import { FaGraduationCap } from "react-icons/fa6";
 
 function Home2() {
   const [showAllPubs, setShowAllPubs] = useState(false);
+  const pubSectionRef = useRef(null);
+  const didMountRef = useRef(false);
+
+  // After toggling the publication list, jump back to the top of the section
+  // (the toggle button lives at the bottom, so an expanded list would otherwise
+  // leave the reader stranded far down the page). Skip the initial mount.
+  useEffect(() => {
+    if (!didMountRef.current) {
+      didMountRef.current = true;
+      return;
+    }
+    if (pubSectionRef.current) {
+      pubSectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [showAllPubs]);
+
   return (
     <Container fluid className="home-about-section" id="about" >
       <Container>
@@ -31,11 +47,11 @@ function Home2() {
           </Col>
         </Row>
         <hr className="section-divider" />
-        <Row>
+        <Row ref={pubSectionRef} className="pub-section-anchor">
           <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "1.6em" }}>
               <span className="black">{showAllPubs ? " All Publications " : " Featured Publications "}</span>
-              
+
             </h1>
             <PublicationCard
               showAll={showAllPubs}

@@ -38,6 +38,12 @@
   height: 20px;
 }
 
+/* offset the scroll target below the fixed navbar when the publication list
+   toggle jumps back to the top of the section */
+.pub-section-anchor {
+  scroll-margin-top: 90px;
+}
+
 /* 当屏幕宽度小于 768px 时，将年份放置在上方，并调整样式 */
 @media (max-width: 768px) {
   .year-block {
