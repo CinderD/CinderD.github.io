@@ -3,6 +3,16 @@ import './css/NewsCards.css'; // 确保有对应的样式文件
 import newsIcon from '../../Assets/news-icon.png'; // 引入图标路径
 const newsItems = [
   {
+    date: "Sep. 19, 2026",
+    content: [
+      { text: "🎉 ", highlight: false, link: null },
+      { text: "TeachArena", highlight: true, link: "https://arxiv.org/abs/2605.14322" },
+      { text: " is accepted to ", highlight: false, link: null },
+      { text: "NeurIPS 2026", highlight: true, link: "https://neurips.cc/" },
+      { text: " (CCF-A/CORE-A*)! Grateful to all my collaborators.", highlight: false, link: null },
+    ]
+  },
+  {
     date: "Aug. 10, 2026",
     content: [
       { text: "💬 Glad to serve as an ", highlight: false, link: null },
