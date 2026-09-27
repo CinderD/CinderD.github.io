@@ -32,6 +32,16 @@ import TACT from "../../Assets/TACT.png";
 const publications = [
   {
     year: 2026,
+    title: "Are Agents Ready to Teach? A Multi-Stage Benchmark for Real-World Teaching Workflows.",
+    authors: "Zixin Chen, Peng Liu, Rui Sheng, Haobo Li, Jianhong Tu, Xiaodong Deng, Kashun Shum, Dayiheng Liu, and Huamin Qu",
+    conference: "NeurIPS 2026 (CCF-A/CORE-A*)",
+    pdfLink: "https://arxiv.org/abs/2605.14322",
+    codeLink: "https://cinderd.github.io/",
+    videoLink: "https://cinderd.github.io/",
+    imgSrc: EduAgentBench,
+  },
+  {
+    year: 2026,
     title: "Informal Learning Emerges in Everyday Human-LLM Interaction.",
     authors: "Zixin Chen, Haotian Li, Ziang Xiao, Huamin Qu, and Xing Xie",
     conference: "Preprint (Under Review)",
@@ -49,16 +59,6 @@ const publications = [
     codeLink: "https://cinderd.github.io/",
     videoLink: "https://cinderd.github.io/",
     imgSrc: WildTrace,
-  },
-  {
-    year: 2026,
-    title: "Are Agents Ready to Teach? A Multi-Stage Benchmark for Real-World Teaching Workflows.",
-    authors: "Zixin Chen, Peng Liu, Rui Sheng, Haobo Li, Jianhong Tu, Xiaodong Deng, Kashun Shum, Dayiheng Liu, and Huamin Qu",
-    conference: "NeurIPS 2026 (CCF-A/CORE-A*)",
-    pdfLink: "https://arxiv.org/abs/2605.14322",
-    codeLink: "https://cinderd.github.io/",
-    videoLink: "https://cinderd.github.io/",
-    imgSrc: EduAgentBench,
   },
   {
     year: 2026,
